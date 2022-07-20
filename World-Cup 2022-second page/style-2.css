@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* base style  */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.top-banner {
+    display: flex;
+    background-color: #161616;
+    border-radius: 15px;
+}
+
+.banner-title {
+    font-size: 50px;
+    color: #fff;
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+
+.banner-para {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.button-1 {
+    background-color: #DD0000;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 8px;
+}
+
+.banner-image img {
+    Width: 581px;
+    Height: 613px;
+}
+
+/* ---------
+container style 
+    --------------*/
+.container {
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.aside {
+    display: grid;
+    align-items: center;
+    width: 312px;
+    height: 312px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #161616;
+}
+
+.update-box {
+    margin: 30px;
+    width: 252px;
+    height: 252px;
+}
+
+.update {
+    display: grid;
+    align-items: center;
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: wheat;
+
+}
+
+.update a {
+    display: grid;
+    justify-content: center;
+    color: #161616;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#upcoming-match {
+    background-color: maroon;
+}
+
+#upcoming-match a {
+    color: #fff;
+}
+
+/* hover efect */
+#upcoming-match:hover {
+    background-image: linear-gradient(pink, deeppink);
+
+}
+
+#group {
+    margin-top: 30px;
+}
+
+#blog {
+    margin-top: 30px;
+}
+
+
+#blog a {
+    color: #161616;
+}
+
+/* -----------
+article style 
+        -----------*/
+.today-match {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+}
+
+.goal-time {
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+}
+
+.match-date {
+    display: flex;
+    justify-content: center;
+}
+
+.flag-1 {
+    margin: 20px;
+}
+
+.match-date p {
+    margin-top: 35px;
+}
+
+.match-info {
+    text-align: center;
+}
+
+.match-time {
+    text-align: center;
+}
+
+.goal img {
+    Width: 92px;
+    Height: 56px;
+    border-radius: 8px;
+}
+
+
+
+/* footer style  */
+
+.footer {
+    Width: 100%;
+    Height: 300px;
+    margin-top: 100px;
+    background-color: rgb(8, 8, 48);
+}
+
+.goal {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.anchor {
+    display: flex;
+    justify-content: center;
+}
+
+.anchor a {
+    margin: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    opacity: .6;
+}
