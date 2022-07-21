@@ -8,6 +8,7 @@ body {
 }
 
 .main {
+    /* width: 100%; */
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -167,6 +168,18 @@ article style
     margin-right: 10px;
 }
 
+.button-3 {
+    background-color: #DD0000;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 7%;
+    margin-left: 45%;
+    color: #fff;
+    display: none;
+}
+
 /* footer style  */
 
 .footer {
@@ -201,4 +214,131 @@ article style
 /*-------------
  media quary style 
         -- ------------*/
-@media screen and() {}
+@media only screen and (max-width: 688px) {
+    .main {
+        width: 100%;
+    }
+
+    .top-banner {
+        display: block;
+        flex-direction: column;
+
+    }
+
+    .container {
+        display: block;
+        align-items: flex-start;
+
+    }
+
+    .aside {
+        display: block;
+        width: 0px;
+    }
+
+    #group,
+    #next-pgae {
+        background-color: #fff;
+        border: 1px solid lightgrey;
+    }
+
+    .aside {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .update-box {
+        width: 0;
+        height: 0;
+    }
+
+    #next-page {
+        width: 210px;
+        height: 48px;
+    }
+
+    #group {
+        width: 160px;
+        height: 48px;
+    }
+
+    #blog {
+        height: 48px;
+        width: 160px;
+    }
+
+
+    .anchor {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .anchor a {
+        text-align: center;
+        margin: 5px;
+
+    }
+
+    .today-match {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .button-3 {
+        display: none;
+    }
+}
+
+/*-------------------
+ media quary tablet style 
+            -------------------*/
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+
+
+    .container {
+        display: block;
+    }
+
+    .top-banner {
+        width: 734px;
+    }
+
+    .today-match {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .aside {
+        display: flex;
+        width: 0;
+    }
+
+
+    .update-box {
+        width: 0;
+        justify-content: space-evenly;
+    }
+
+    .button-3 {
+        display: block;
+    }
+
+    .footer {
+        width: 834px;
+        height: 345px;
+    }
+
+    .anchor {
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #footer {
+        position: relative;
+        left: 90%;
+    }
+}
